@@ -5,7 +5,7 @@
 #include "constants.h"
 
 #ifdef IS_WINDOWS
-#define PARDISOLIBNAME "mkl_rt." SHAREDLIBEXT
+#define PARDISOLIBNAME "mkl_rt.1." SHAREDLIBEXT
 #else
 #define PARDISOLIBNAME "libmkl_rt." SHAREDLIBEXT
 #endif
